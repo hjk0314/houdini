@@ -9,6 +9,13 @@
                 "${workspaceFolder}/send_to_houdini.py", 
                 "${file}"
                 ], 
+            "presentation": {
+                "echo": false, 
+                "reveal": "never", 
+                "focus": false, 
+                "panel": "dedicated", 
+                "close": true
+                }, 
             "problemMatcher": []
             }
         ]
