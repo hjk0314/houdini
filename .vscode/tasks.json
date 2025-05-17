@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0", 
+    "tasks": [
+        {
+            "label": "Send to Houdini", 
+            "type": "shell", 
+            "command": "python", 
+            "args": [
+                "${workspaceFolder}/send_to_houdini.py", 
+                "${file}"
+                ], 
+            "problemMatcher": []
+            }
+        ]
+    }
+
