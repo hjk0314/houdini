@@ -18,3 +18,4 @@ for prim in geo.prims():
     p = prim.stringAttribValue("path")
     parts = p.split("/")
     prim.setAttribValue(path_attr, parts[-2])
+
